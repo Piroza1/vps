@@ -75,7 +75,7 @@ systemctl start nodews1
 systemctl enable badvpn 
 systemctl enable nodews1 
 systemctl enable stunnel4 
-systemctl status nodews1 
-systemctl status badvpn 
-systemctl status stunnel4 
+# systemctl status nodews1 
+# systemctl status badvpn 
+# systemctl status stunnel4 
 systemctl disable apache2 
